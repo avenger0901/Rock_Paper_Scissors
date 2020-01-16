@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://cdn.hipwallpaper.com/i/84/93/NlV1Mt.jpeg');
+   background-position: cover;
+   background-repeat: no-repeat;
+}
+header{
+    font-size: 50px;
+    color: seashell;
+}
+.words{
+    font-size: 20px;
+    color: skyblue;
+}
+#play-game{
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: springgreen;
+    color: blue;
+    height: 50px;
+    width: 100px;
+}
