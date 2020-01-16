@@ -6,6 +6,7 @@ playButton.addEventListener('click', () => {
     const gameResult = document.getElementById('Result');
     const userSelect = document.querySelector('input:checked');
     const userChoice = userSelect.value;
+    
 
     console.log(userChoice);
     const computerRandom = getRandomThrow();
@@ -19,7 +20,7 @@ playButton.addEventListener('click', () => {
     } else if (checkResult(userChoice, computerRandom) === 'Loose'){
         gameResult.textContent = `You Lost`;
     }
-
+    enermyChoice.textContent = computerRandom;
         
 });
 
