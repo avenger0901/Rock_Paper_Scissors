@@ -11,12 +11,18 @@
 <header>Rock Paper Sissor Game</header>
 <body>
     <div class="words">Your Choice:</div>
-    <input id="choice-1" type="radio" name="button" value="Rock"><img src="./Assets/rock.png" height="100px" width="120px">
+    <input id="choice-1" type="radio" name="button" value="Rock" checked><img src="./Assets/rock.png" height="100px" width="120px">
     <input id="choice-2" type="radio" name="button" value="Paper"><img src="./Assets/paper.png" height="100px" width="120px">
     <input id="choice-3" type="radio" name="button" value="scissors"><img src="./Assets/Scissors.png" height="100px" width="120px">
-    <div class="words">Enermy Choice:<span id="enermy-choice"></span></divclass="words">
+    <div class="words">Enemy Choice:<span id="enemy-choice"></span></div class="words">
 
     <div class="words">Result:<span id='Result'></span></div>
+    <div>
+        Total Trials:<span id="total-trials"></span>
+    </div>
+    <div>
+        Number of Wins:<span id="number-of-wins"></span>
+    </div>
     <button id="play-game">Let's Play!</button>
     
 
