@@ -4,6 +4,7 @@ export function getRandomThrow(){
     return getNumber(computerRandom);
     //console.log(computerRandom);
 }
+
 export function getNumber(number){
     
     if (number === 0){
