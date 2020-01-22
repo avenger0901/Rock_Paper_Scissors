@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>Rock Paper Scissor Game</header>
+<body>
+    <div class="words">Your Choice:</div>
+    <input id="choice-1" type="radio" name="button" value="Rock" checked><img src="./Assets/rock.png" height="100px" width="120px">
+    <input id="choice-2" type="radio" name="button" value="Paper"><img src="./Assets/paper.png" height="100px" width="120px">
+    <input id="choice-3" type="radio" name="button" value="Scissors"><img src="./Assets/Scissors.png" height="100px" width="120px">
+    <div class="words">Enemy Choice:<span id="enemy-choice"></span></div class="words">
+
+    <div class="words">Result:<span id='Result'></span></div>
+    <div>
+        Total Trials:<span id="total-trials"></span>
+    </div>
+    <div>
+        Number of Wins:<span id="number-of-wins"></span>
+    </div>
+    <button id="play-game">Let's Play!</button>
+    
+
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
